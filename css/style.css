@@ -33,11 +33,14 @@ body {
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #2c3e50;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    letter-spacing: 2px;
+}
+
+.logo img {
+    height: 40px;   /* size yaha control hoga */
+    width: auto;
 }
 
 .nav-menu {
