@@ -1,1 +1,1 @@
-Atrupti
+![Atrupti Logo](public/logo.png)
