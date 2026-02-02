@@ -29,7 +29,7 @@ function addToCart(productId) {
     localStorage.setItem('cart', JSON.stringify(cart));
     updateCartCount();
 
-    alert(`${product.name} added to cart!`);
+    alertSuccess(`${product.name} added to cart!`);
 }
 
 function displayProducts(productsToDisplay, containerId) {
